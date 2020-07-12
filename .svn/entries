@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2005-02-01T15:33:10.518120Z"
+   url="http://138.100.110.147/repos/tecnoinmo"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   name="sql"
+   kind="dir"/>
+<entry
+   name="language"
+   kind="dir"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="57"
+   name="xoops_version.php"
+   text-time="2005-02-28T15:12:18.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="87a46424a58bab4889716526dc521530"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="class"
+   kind="dir"/>
+<entry
+   name="admin"
+   kind="dir"/>
+<entry
+   name="imagenes"
+   kind="dir"/>
+<entry
+   name="blocks"
+   kind="dir"/>
+<entry
+   committed-rev="63"
+   name="index.php"
+   text-time="2005-02-28T15:12:18.000000Z"
+   committed-date="2004-11-23T17:51:26.561268Z"
+   checksum="0e662c6c2cfd231ec1721fc678b2c2eb"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   name="templates"
+   kind="dir"/>
+<entry
+   committed-rev="27"
+   name="header.php"
+   text-time="2005-02-28T15:12:18.000000Z"
+   committed-date="2004-09-24T13:09:17.846083Z"
+   checksum="0c83fc715b151c07c7870f534fcff4e8"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+</wc-entries>

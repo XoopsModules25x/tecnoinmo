@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="65"
+   name=""
+   committed-date="2005-01-04T18:02:04.025608Z"
+   url="http://138.100.110.147/repos/tecnoinmo/language"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   name="spanish"
+   kind="dir"/>
+<entry
+   committed-rev="27"
+   name="index.html"
+   text-time="2005-02-28T15:12:16.000000Z"
+   committed-date="2004-09-24T13:09:17.846083Z"
+   checksum="e1aedf4e788d40c9dbb4f2520f8feffd"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:16.000000Z"/>
+</wc-entries>

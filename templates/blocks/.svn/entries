@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="55"
+   name=""
+   committed-date="2004-10-29T17:08:06.090373Z"
+   url="http://138.100.110.147/repos/tecnoinmo/templates/blocks"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   committed-rev="55"
+   name="tecnoinmo_bloque.html"
+   text-time="2005-02-28T15:12:18.000000Z"
+   committed-date="2004-10-29T17:08:06.090373Z"
+   checksum="19a37ba465fcb4125ad9a0c2890c1636"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:18.000000Z"/>
+<entry
+   committed-rev="55"
+   name="index.html"
+   text-time="2005-02-28T15:12:18.000000Z"
+   committed-date="2004-10-29T17:08:06.090373Z"
+   checksum="e1aedf4e788d40c9dbb4f2520f8feffd"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:18.000000Z"/>
+</wc-entries>

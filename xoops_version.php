@@ -1,0 +1,51 @@
+<?php
+$modversion['name'] = _TECNOINMO_NOMBRE;  	/*El nombre de tu módulo*/
+$modversion['version'] = 1.1; 			      /*La versión que estes realizando*/
+$modversion['description'] = _TECNOINMO_DESC; 	/*Su descripción*/
+$modversion['credits'] = '<A href="www.tecnolibre.org">www.tecnolibre.org</A>';			      /*Los créditos y agradecimientos*/
+$modversion['author'] = "-::P4r4s1t0::-<br>.:: Dáiren ::.<br>NEOMODO<br>wilson";
+$modversion['help'] = "help.html";		      /*Archivo de ayuda si lo haz realizado*/
+$modversion['license'] = "GPL see LICENSE";	/*La licencia de uso*/
+$modversion['official'] = 1;			      /*Si el módulo es oficial pones 1, sino 0*/
+$modversion['image'] = "images/slogo.png";	/*La ubicación del ícono de administración*/
+$modversion['dirname'] = "tecnoinmo";		/*Nombre de la carpeta del módulo*/
+
+//Script mysql
+$modversion['sqlfile']['mysql'] = "sql/mysql.sql";	/*Ubucación del script mysql si lo posee.*/
+
+//Tablas Base de Datos
+$modversion['tables'][0] = "tecnoinmo_zona";		/*Nombre de las tablas que posea el script mysql*/
+$modversion['tables'][1] = "tecnoinmo_inmueble";
+$modversion['tables'][2] = "tecnoinmo_foto";
+$modversion['tables'][3] = "tecnoinmo_agencia";
+
+//Administración
+$modversion['hasAdmin'] = 1;			      /*Si el módulo posee administración pones 1, sino 0*/
+$modversion['adminindex'] = "admin/index.php";  /*Si el módulo posee administración pones aquí su página de inicio*/
+$modversion['adminmenu'] = "admin/menu.php";	/*Si el módulo posee administración pones el archivo que contiene su menú*/
+
+//Templates
+$modversion['templates'][1]['file'] = 'tecnoinmo_portada.html';
+$modversion['templates'][1]['description'] = 'Portada del módulo';
+$modversion['templates'][2]['file'] = 'tecnoinmo_inmueble.html';
+$modversion['templates'][2]['description'] = 'Muestra un inmueble';
+$modversion['templates'][3]['file'] = 'tecnoinmo_lista.html';
+$modversion['templates'][3]['description'] = 'Muestra listado de inmuebles';
+
+//Bloques
+$modversion['blocks'][1]['file'] = "bloque_menu.php";
+$modversion['blocks'][1]['name'] = _TECNOINMO_BLOQUE_NOMBRE;
+$modversion['blocks'][1]['description'] = _TECNOINMO_BLOQUE_DESCRIPCION;
+$modversion['blocks'][1]['show_func'] = "b_tecnoinmo_show";
+$modversion['blocks'][1]['template'] = 'tecnoinmo_bloque.html';
+
+//Menú
+$modversion['hasMain'] = 1; 	  /*Si el módulo posee algo a mostrar para el usuario común pones 1, sino 0*/
+				  /*Poner esta opción en 1 permitirá que el módulo aparezca en el menú principal del sitio*/
+
+//Buscador
+$modversion['hasSearch'] = 0;					      /*Si le haz creado una función de búsqueda al módulo pones 1, sino 0*/
+#$modversion['search']['file'] = "include/search.inc.php";	/*Indicas el archivo donde se encuentra la función de búsqueda*/
+#$modversion['search']['func'] = "mi_modulo_search";		/*Indicas el nombre de la función de búsqueda que hayas creado.*/
+
+?>

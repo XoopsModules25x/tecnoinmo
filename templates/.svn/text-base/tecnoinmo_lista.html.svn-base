@@ -1,0 +1,37 @@
+<h4><{$titulo}></h4>
+
+<table width="100%" class="outer" cellspadding='4' cellspacing='1'>
+
+<!-- start inmuebles item loop -->
+<{section name=i loop=$inmuebles}>
+<{if $inmuebles[i].zona neq ""}>
+	<tr>
+	<th colspan="2">
+ 	<{$inmuebles[i].zona}>
+	</th>
+	</tr>
+  <{/if}>
+  <{if $par[i] eq true}>
+  <tr>
+	<td class="even"><{$inmuebles[i].referencia}></td>
+	<td align="left" class="even"><{$inmuebles[i].texto}></td>
+  </tr>
+  <{else}>
+    <tr>
+	<td class="odd"><{$inmuebles[i].referencia}></td>
+	<td align="left" class="odd"><{$inmuebles[i].texto}></td>
+    </tr>
+  <{/if}>
+<{/section}>
+<!-- end inmuebles item loop -->
+
+
+
+</table class="outer">
+<table width='100%'>
+	<tr><td align='left' class="even">
+		<a href="<{$enlace1[0]}>"><{$texto_enlace1[0]}></a>
+	</td><td align='right' class="even">
+		<a href="<{$enlace2[0]}>"><{$texto_enlace2[0]}></a>
+	</td></tr>
+</table>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="57"
+   name=""
+   committed-date="2004-11-04T19:27:14.518630Z"
+   url="http://138.100.110.147/repos/tecnoinmo/sql"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   committed-rev="57"
+   name="mysql.sql"
+   text-time="2005-02-28T15:12:16.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="650c18bf6d1bf0c55bf7e4750f05f412"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:16.000000Z"/>
+<entry
+   committed-rev="23"
+   name="index.html"
+   text-time="2005-02-28T15:12:16.000000Z"
+   committed-date="2004-09-23T20:40:12.153276Z"
+   checksum="e1aedf4e788d40c9dbb4f2520f8feffd"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:16.000000Z"/>
+</wc-entries>

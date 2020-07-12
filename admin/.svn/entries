@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="57"
+   name=""
+   committed-date="2004-11-04T19:27:14.518630Z"
+   url="http://138.100.110.147/repos/tecnoinmo/admin"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   committed-rev="57"
+   name="datos.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="efafe12ce6c870462f061d758f06fc98"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="49"
+   name="inmueble.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-10-18T21:47:23.104561Z"
+   checksum="65e6a2df930f30cad3d3bd50e998755b"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="27"
+   name="administracion.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-09-24T13:09:17.846083Z"
+   checksum="15023232c493b3630ad3138c58808e0e"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="57"
+   name="menu.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="f36dc5753f67e13415375743ac7f9dd6"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="27"
+   name="index.html"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-09-24T13:09:17.846083Z"
+   checksum="e1aedf4e788d40c9dbb4f2520f8feffd"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="57"
+   name="index.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="d807eb443b785f50836d16f87ce991dc"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   committed-rev="56"
+   name="zona.php"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-11-02T17:51:45.475400Z"
+   checksum="8bdc3887f5ba67daf23edaabb27ec55b"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+</wc-entries>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="64"
+   name=""
+   committed-date="2004-11-23T17:51:44.917040Z"
+   url="http://138.100.110.147/repos/tecnoinmo/imagenes"
+   last-author="jose"
+   kind="dir"
+   uuid="97758fab-b3e4-0310-aba6-b1cc3cb6c92c"
+   revision="66"/>
+<entry
+   committed-rev="57"
+   name="telef1.gif"
+   text-time="2005-02-28T15:12:17.000000Z"
+   committed-date="2004-11-04T19:27:14.518630Z"
+   checksum="462b99e1da509956f3c37b7703b2d32c"
+   last-author="jose"
+   kind="file"
+   prop-time="2005-02-28T15:12:17.000000Z"/>
+<entry
+   name="iconos"
+   kind="dir"/>
+<entry
+   name="fotos"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,33 @@
+<h4><{$lang_portada}></h4>
+
+<table width="100%" class="outer" cellspadding='4' cellspacing='1'>
+<!-- start inmuebles item loop -->
+<{section name=i loop=$inmuebles}>
+  <{if $par[i] eq true}>
+  	<tr>
+	<td width="50%" class="even"><table><TR><TD><{$inmuebles[i].url_icono}></TD><TD><{$inmuebles[i].texto}></TD></TR></table></td>
+	<{if $ultimo[i] eq true}>
+		</tr>
+	<{/if}>
+  <{else}>
+	<td width="50%" class="odd"><table><TR><TD><{$inmuebles[i].url_icono}></TD><TD><{$inmuebles[i].texto}></TD></TR></table></td>
+	</tr>
+  <{/if}>
+<{/section}>
+<!-- end inmuebles item loop -->
+
+</table>
+<table width='100%'>
+	<tr><td align='left'>
+		<a href="<{$enlace1[0]}>"><{$texto_enlace1[0]}></a>
+	</td><td align='right'>
+		<a href="<{$enlace2[0]}>"><{$texto_enlace2[0]}></a>
+	</td></tr>
+</table>
+
+<table width='100%'>
+	<tr><TD align="center" ><font  face="Verdana, Arial, Helvetica, sans-serif" size="4"><{$nombre_agencia}></font></TD></tr>
+	<tr><TD align="center" ><font  face="Verdana, Arial, Helvetica, sans-serif" class="comUserStatus"><{$direccion_agencia}></font></TD></tr>
+	<TR><TD align="center" ><IMG src="<{$link_telefono}>" alt="tel" border="0"><font face="Verdana, Arial, Helvetica, sans-serif" color="#0101FE" size="5">&nbsp;<{$telefono_agencia}></font></TD></TR>
+	<tr><TD align="center" class="comUserStatus"><A href="mailto://<{$email_agencia}>" name="<{$email_agencia}>"><{$email_agencia}></A></TD></tr>
+</table>
